@@ -1,0 +1,7 @@
+# Jupyter metapackage. Install all the Jupyter components in one go.
+jupyter
+
+# NumPy is the fundamental package for array computing
+numpy==1.16.2
+
+# add more package bellow
