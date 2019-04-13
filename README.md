@@ -27,9 +27,14 @@ $ cp docker-compose.yml.example docker-compose.yml
 $ cp .env.example .env
 ```
 
+Pull image and build
+```sh
+$ docker-compose build jflybook
+$ docker-compose pull nginx
+```
 
-## Set Password
-Set your jupyter nootebook password
+Setting up Password your jupyter nootebook password
+
 ```sh
 $ docker-compose run --rm jflybook sh -c 'jupyter notebook --generate-config -y && jupyter notebook password'
 ```
